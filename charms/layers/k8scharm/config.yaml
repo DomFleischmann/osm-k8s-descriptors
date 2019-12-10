@@ -1,0 +1,6 @@
+options:
+  test-option:
+    type: string
+    description: 'Test option'
+    default: 'test'
+

@@ -1,0 +1,8 @@
+bundle: kubernetes
+applications:
+  k8scharm:
+    charm: '../charms/k8scharm'
+    scale: 1
+    resources:
+      ubuntu-image: 'ubuntu:latest'
+    series: kubernetes

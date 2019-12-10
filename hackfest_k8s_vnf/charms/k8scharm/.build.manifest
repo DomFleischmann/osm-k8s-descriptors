@@ -1,0 +1,1401 @@
+{
+  "layers": [
+    {
+      "rev": "fcdcea4e5de3e1556c24e6704607862d0ba00a56",
+      "url": "layer:options"
+    },
+    {
+      "rev": "fac96d3e2cc3b67fd450985800377643e8e13c73",
+      "url": "layer:caas-base"
+    },
+    {
+      "rev": "a7d7b6423db37a47611310039e6ed1929c0a2eab",
+      "url": "layer:status"
+    },
+    {
+      "rev": "faea7f1e47c78932534d57037e283a265536bda9",
+      "url": "layer:docker-resource"
+    },
+    {
+      "rev": null,
+      "url": "k8scharm"
+    }
+  ],
+  "signatures": {
+    ".build.manifest": [
+      "build",
+      "dynamic",
+      "unchecked"
+    ],
+    ".gitignore": [
+      "layer:status",
+      "static",
+      "315971ad9cc5d6ada2391f0940e1800149b211a18be3c7a8f396735d7978702b"
+    ],
+    "LICENSE": [
+      "layer:docker-resource",
+      "static",
+      "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    ],
+    "README.md": [
+      "layer:docker-resource",
+      "static",
+      "a12645ede907c66695c202aa1fa3ecd696cec3b3fe248c9d56f5bd62e7176d90"
+    ],
+    "bin/layer_option": [
+      "layer:options",
+      "static",
+      "e959bf29da4c5edff28b2602c24113c4df9e25cdc9f2aa3b5d46c8577b2a40cc"
+    ],
+    "config.yaml": [
+      "k8scharm",
+      "dynamic",
+      "8f4d04cd1020345cdd000d8bc0756416ddc3afacda88c5bb1fd86b8f45c2e5fc"
+    ],
+    "copyright": [
+      "layer:docker-resource",
+      "static",
+      "7c0e36e618a8544faaaa3f8e0533c2f1f4a18bcacbdd8b99b537742e6b587d58"
+    ],
+    "copyright.layer-layer-caas-base": [
+      "layer:caas-base",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "copyright.layer-options": [
+      "layer:options",
+      "static",
+      "f6740d66fd60b60f2533d9fcb53907078d1e20920a0219afce7182e2a1c97629"
+    ],
+    "copyright.layer-status": [
+      "layer:status",
+      "static",
+      "7c0e36e618a8544faaaa3f8e0533c2f1f4a18bcacbdd8b99b537742e6b587d58"
+    ],
+    "docs/status.md": [
+      "layer:status",
+      "static",
+      "975dec9f8c938196e102e954a80226bda293407c4e5ae857c118bf692154702a"
+    ],
+    "hooks/config-changed": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/hook.template": [
+      "layer:caas-base",
+      "static",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/install": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/leader-elected": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/leader-settings-changed": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/post-series-upgrade": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/pre-series-upgrade": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/start": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/stop": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/update-status": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "hooks/upgrade-charm": [
+      "layer:caas-base",
+      "dynamic",
+      "157765588f1df9480af41ae28e22b5d4b38c772180f42ff0e8ebfbd3333c95c1"
+    ],
+    "layer.yaml": [
+      "k8scharm",
+      "dynamic",
+      "91cf6759d0cab34bc92456a18b3273b1e89aeda4df3f3984212cf32173dbfea8"
+    ],
+    "lib/bin/charms.reactive": [
+      "layer:caas-base",
+      "dynamic",
+      "9a4227cb50c97b7dd9661478cde81bb7641a1f76a99fa780c07e94db66d2c259"
+    ],
+    "lib/bin/charms.reactive.sh": [
+      "layer:caas-base",
+      "dynamic",
+      "7e3e541fce64fdda5ef7f30ad769b2a95800731661a315877b1a503bd089cb1b"
+    ],
+    "lib/bin/charmsupport": [
+      "layer:caas-base",
+      "dynamic",
+      "424571190e2c77bbb425932e4b21fa6fa3537e3351f4cfb22e70a046687172c4"
+    ],
+    "lib/bin/chlp": [
+      "layer:caas-base",
+      "dynamic",
+      "013a57adebf42101a251981542b69354a2b616be1a4ad0ee2920415f990e61e4"
+    ],
+    "lib/bin/netaddr": [
+      "layer:caas-base",
+      "dynamic",
+      "167ad1d6c0e854162da5551c6120f36125b36d8f5e11d9a32c51a006e5611c57"
+    ],
+    "lib/bin/salt-call": [
+      "layer:caas-base",
+      "dynamic",
+      "921149ce78f0f2cae6c2d715109e0609a6b8011b05cd7b5c21fd4e4f6b71293f"
+    ],
+    "lib/charmhelpers/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7834266aba676e05e7e61121e181bd57074db0b51071c15e4dd8005223b3c839"
+    ],
+    "lib/charmhelpers/cli/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c9fdc7cfa2313f82fd29b06899c0f5657819b0f6868e84f7e340f2a67fd90182"
+    ],
+    "lib/charmhelpers/cli/benchmark.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d04540f5b33d7448861b9ce8dd13b117fb6b5699e4270840d5029abbef62f619"
+    ],
+    "lib/charmhelpers/cli/commands.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e42961878e052dff2f0c61ab64569a176047bd1630e2d8ed164fd669bc605653"
+    ],
+    "lib/charmhelpers/cli/hookenv.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e49effadf39b994a8f5f9a2f6d74cf9a29ec457d59eda9d7c515650bbd1fe1a7"
+    ],
+    "lib/charmhelpers/cli/host.py": [
+      "layer:caas-base",
+      "dynamic",
+      "679a1743977dbcc37fb42dab4c749dc75239b5d41dea42fa42c074b86ac64ba3"
+    ],
+    "lib/charmhelpers/cli/unitdata.py": [
+      "layer:caas-base",
+      "dynamic",
+      "aa21048da61d887cccfcb43e4954e257edcf030315a97d64fa65cf8367c7e5ad"
+    ],
+    "lib/charmhelpers/context.py": [
+      "layer:caas-base",
+      "dynamic",
+      "21a42fec9c2fe53b603552d2b4350f2d894bbe95bcd3e8f7f92b1920546b2f7f"
+    ],
+    "lib/charmhelpers/contrib/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/amulet/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/amulet/deployment.py": [
+      "layer:caas-base",
+      "dynamic",
+      "20f8d97a1308158ce75bae520c7c1075516011d513006349252c0cefe03a23b4"
+    ],
+    "lib/charmhelpers/contrib/amulet/utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "af8c7b45600faf548fbf34b9e96ecf3ecaed5bc5122b32463bf6b0373cdbd914"
+    ],
+    "lib/charmhelpers/contrib/ansible/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "b8ac9eb9e1a90d49b88539548986d996b07e6edb71fcfd6a00d45abf6091c6d2"
+    ],
+    "lib/charmhelpers/contrib/benchmark/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "aa82506fdf23ad501b777c515509699769e8ad47d2e7791c0c6fdadfaa97a3e8"
+    ],
+    "lib/charmhelpers/contrib/charmhelpers/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "cc8b1b2bd1d51a727607f6e5a5a224d6eaaaea8075e542fc58173b7a7f188681"
+    ],
+    "lib/charmhelpers/contrib/charmsupport/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/charmsupport/nrpe.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e4e9570314a4a0837a33b211e20450bc9d84c214255140c7307a80376cbc40b1"
+    ],
+    "lib/charmhelpers/contrib/charmsupport/volumes.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5ee1bd150e3122b1dd390d4a2ed37639388e31cdc00f6e0c5145c908eb386dcf"
+    ],
+    "lib/charmhelpers/contrib/database/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "b8b7e411eb4ee4dfe3b07e651035bb05db622eb0367651d2b621cebfc34da7d4"
+    ],
+    "lib/charmhelpers/contrib/database/mysql.py": [
+      "layer:caas-base",
+      "dynamic",
+      "a9bdf27e625c37921b09a4d5005dd682711c6768444e620217363bc5bcebdc96"
+    ],
+    "lib/charmhelpers/contrib/hahelpers/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/hahelpers/apache.py": [
+      "layer:caas-base",
+      "dynamic",
+      "522c7a5afe6c2424aec02d73d22084fdc439a597d0c46fc0f4823553324c02e5"
+    ],
+    "lib/charmhelpers/contrib/hahelpers/cluster.py": [
+      "layer:caas-base",
+      "dynamic",
+      "272c8588ae0ea970c6b717440943230831eca9a752721e5f04bbabd3bee6a673"
+    ],
+    "lib/charmhelpers/contrib/hardening/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "272288a2dfe7cb4ed4e64cbeb56b730df1ff321b1a6b626665016117b3f724db"
+    ],
+    "lib/charmhelpers/contrib/hardening/apache/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ],
+    "lib/charmhelpers/contrib/hardening/apache/checks/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "959adf78dbe01b20b44fa0e48c74e74efa55887b428bcc005137bde7cc25b6a9"
+    ],
+    "lib/charmhelpers/contrib/hardening/apache/checks/config.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6d029ea04c6d94ec67c3824b7c31cbea891c684e168abf22313ef7f141dac324"
+    ],
+    "lib/charmhelpers/contrib/hardening/audits/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "68aada3efc514cbac313c94fd12af4b0db89c8d0941e9de8f385d8a0ae9c091f"
+    ],
+    "lib/charmhelpers/contrib/hardening/audits/apache.py": [
+      "layer:caas-base",
+      "dynamic",
+      "bcb772ed93a51b216831fda9bb7c4e2948bb03de1b1d9de58cd81d50df70096a"
+    ],
+    "lib/charmhelpers/contrib/hardening/audits/apt.py": [
+      "layer:caas-base",
+      "dynamic",
+      "cc7bc36c0e3e1af3b03fb63ec4c3f8068c2b02c6770d0e03e6fde21872d2a26f"
+    ],
+    "lib/charmhelpers/contrib/hardening/audits/file.py": [
+      "layer:caas-base",
+      "dynamic",
+      "fc618dda846f45a5bad3012d1f29faa6d1410ace4d3534198f46394ac55f0792"
+    ],
+    "lib/charmhelpers/contrib/hardening/harden.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d4e1b3ae997ea63ec6f4b0d99a9576f183f9007f439fa9280ce27bbca1303731"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "68837f89116a23583e74f6845d3dc2f7222c9e50f6c515789ffc6f535db481e6"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/apt.py": [
+      "layer:caas-base",
+      "dynamic",
+      "97690a39faa9db340b50d45674197313d14643dfc066a558c2f80d84cf850748"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/limits.py": [
+      "layer:caas-base",
+      "dynamic",
+      "a0c2e5726c3c3bc7969b31640174fbcd48eedc820e28cc2007d8a87309a03d12"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/login.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c5d969f648d85c7845781a172a548233fc10c19d211f736383006fd4a4cd5513"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/minimize_access.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3f1d4e43de91352037b561585b47969089347a59d6b23940ca1a749fe14ccb94"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/pam.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7618ea40db013d0f368ea43e1439b1b8ac88f904fb9d57cf2c0a4ee438415534"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/profile.py": [
+      "layer:caas-base",
+      "dynamic",
+      "742f830707c7bd200b196cec3dcf29e954ce467db98ceeec8ed54f2b89bb5c96"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/securetty.py": [
+      "layer:caas-base",
+      "dynamic",
+      "480ecb9fd756d413903288552abc757c94dc3606577e8a777274fd8666e4cf95"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/suid_sgid.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3da340536a09973e9dad75a990886d21ee2bc5b6b3c88f425d9bebdb5bdbea37"
+    ],
+    "lib/charmhelpers/contrib/hardening/host/checks/sysctl.py": [
+      "layer:caas-base",
+      "dynamic",
+      "a3e9f2f4e9eda269d328ffa269e17287e8ed2dec46d38fb5d58def18e48d180c"
+    ],
+    "lib/charmhelpers/contrib/hardening/mysql/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ],
+    "lib/charmhelpers/contrib/hardening/mysql/checks/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "fa25d99bd9381c835f16670e9b1dddb12fabed27202e478101375afa957bbdc0"
+    ],
+    "lib/charmhelpers/contrib/hardening/mysql/checks/config.py": [
+      "layer:caas-base",
+      "dynamic",
+      "b66a79200413b8bae1416578342c258c710bacaeac21cc2d0b38fa707496e693"
+    ],
+    "lib/charmhelpers/contrib/hardening/ssh/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0069f3b9f531174f6b14931a2ae61da563c9d951590adfc3366ed11633830ed6"
+    ],
+    "lib/charmhelpers/contrib/hardening/ssh/checks/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "851d341b8014748a36eafce44ceabdabf9f1016aaaa3b63be762136e5b1f441c"
+    ],
+    "lib/charmhelpers/contrib/hardening/ssh/checks/config.py": [
+      "layer:caas-base",
+      "dynamic",
+      "9e1ebf1eb35cec746fa48012b36f1b35d17dfb5948c74f79147a7c481ecb3a51"
+    ],
+    "lib/charmhelpers/contrib/hardening/templating.py": [
+      "layer:caas-base",
+      "dynamic",
+      "222c39942e8521a746747eb70ab30eb985ffedb187c2d96d33002125634ecab0"
+    ],
+    "lib/charmhelpers/contrib/hardening/utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "72c448aa831be64d300fc4c4834eb0b7c809c8d8766df2215bc3cf342496f9f7"
+    ],
+    "lib/charmhelpers/contrib/mellanox/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4f0df770a0279743b329ffc3e55a95cabfff7969f25bac47be1cc6e92254b29b"
+    ],
+    "lib/charmhelpers/contrib/mellanox/infiniband.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5178e316ef4df2263d60e020a99956f083a4c0e8db0559eb6dfb142023216955"
+    ],
+    "lib/charmhelpers/contrib/network/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/network/ip.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6845e5f32cf90483fb3d003748a30d5f6b39e1826ae7a1bfd0a3c41a2ef47a59"
+    ],
+    "lib/charmhelpers/contrib/network/ovs/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5b3c61db7636569d7b8997551e287c0c959c0ef24b7d99c21f8fb528bc3f6e45"
+    ],
+    "lib/charmhelpers/contrib/network/ufw.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d3dece7bacdb7823f5430326517d3a8cb6787b7c8c2248796a52e57be34d9dfd"
+    ],
+    "lib/charmhelpers/contrib/openstack/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/openstack/alternatives.py": [
+      "layer:caas-base",
+      "dynamic",
+      "589430f7479f785231b6e5e06d1a4e60e3e3c13d6906764783259cd2e2f8f7a0"
+    ],
+    "lib/charmhelpers/contrib/openstack/amulet/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/openstack/amulet/deployment.py": [
+      "layer:caas-base",
+      "dynamic",
+      "fe0a293532cb2238859322a3303a352ed996128587f2ee705fbe539f5ba2a876"
+    ],
+    "lib/charmhelpers/contrib/openstack/amulet/utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2a6cb812b66302c90396d32d7f5fae0532e9020627dac16d635c551153e4978a"
+    ],
+    "lib/charmhelpers/contrib/openstack/audits/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "49682bc215ae1ce3f8e68e024fe157eb1cc7473f372565d9d48d56648f1650be"
+    ],
+    "lib/charmhelpers/contrib/openstack/audits/openstack_security_guide.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e7aeb072a73d6a6c8e2e45655c91b70ae01397a41ea4cc3d76cc199d31632d73"
+    ],
+    "lib/charmhelpers/contrib/openstack/cert_utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "766599d2af92f7a71da12a3040d7d0bc9ed43a9006dfcfe15308f9173730283a"
+    ],
+    "lib/charmhelpers/contrib/openstack/context.py": [
+      "layer:caas-base",
+      "dynamic",
+      "60d9b387e332c07a07e6ba10946f4c539aa695649e1d8de6fdf8dcb00393959a"
+    ],
+    "lib/charmhelpers/contrib/openstack/exceptions.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2bb336bdbeaf4aced2820e9053fd3f5d6b9add3dd912278831da86d4fdf662a7"
+    ],
+    "lib/charmhelpers/contrib/openstack/files/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3c9fe89c11769319e8bb9fc9105b2aa33528af4f0f84a407390d9ffbf0f12d47"
+    ],
+    "lib/charmhelpers/contrib/openstack/ha/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4f0df770a0279743b329ffc3e55a95cabfff7969f25bac47be1cc6e92254b29b"
+    ],
+    "lib/charmhelpers/contrib/openstack/ha/utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8322229793efc8b558069ba69b82cbe81c573d455995906320594be97cba67f4"
+    ],
+    "lib/charmhelpers/contrib/openstack/ip.py": [
+      "layer:caas-base",
+      "dynamic",
+      "9ea09cb5bc21179706741ffe4eaa4c2abbc7aa2af836489d3f6c2bdf180e906d"
+    ],
+    "lib/charmhelpers/contrib/openstack/keystone.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8a4155f008e3ec192443ec41a7b320ef7ef478cc940b81a4dd0c6eacdc0d5c71"
+    ],
+    "lib/charmhelpers/contrib/openstack/neutron.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2be9b50a49b4c088eac594156bccb9ed5a5e1b94c03b843767e317aa0085e6e8"
+    ],
+    "lib/charmhelpers/contrib/openstack/policyd.py": [
+      "layer:caas-base",
+      "dynamic",
+      "ac2f572adee6fb35d99a4699e3b8db1845b9d38d7cfc61781032ad5a6a8f9d54"
+    ],
+    "lib/charmhelpers/contrib/openstack/ssh_migrations.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3cce2776be410d16a0447e8421f0d2c5e35615c5c5a2019686405c068096fcb2"
+    ],
+    "lib/charmhelpers/contrib/openstack/templates/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3c9fe89c11769319e8bb9fc9105b2aa33528af4f0f84a407390d9ffbf0f12d47"
+    ],
+    "lib/charmhelpers/contrib/openstack/templating.py": [
+      "layer:caas-base",
+      "dynamic",
+      "f8fafe242edae3a0be6d854acd198ac98d92dd71b21a67142d1362a8c87d57f9"
+    ],
+    "lib/charmhelpers/contrib/openstack/utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "cd3c8a8ff32a2f755c1830e33b66198a1edd8751092573c78662b11e3a02b59e"
+    ],
+    "lib/charmhelpers/contrib/openstack/vaultlocker.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6b56ef4ee7995df2757f5e5b388c62e6b7e83cfe818cafc366dea6622beabd3c"
+    ],
+    "lib/charmhelpers/contrib/peerstorage/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8643ae2caec42bafec5f85a59a6af84fe0b762f4453fc6cefa670cf4b05308b3"
+    ],
+    "lib/charmhelpers/contrib/python.py": [
+      "layer:caas-base",
+      "dynamic",
+      "9deca1a432884a91ff9095ebc2b4bce6f72416b54c475d62e5bea374acf2df57"
+    ],
+    "lib/charmhelpers/contrib/saltstack/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "701647c0e1134cc5cb7d6f15ee365931880bcf27016721c3d2b1bd8c41ad208c"
+    ],
+    "lib/charmhelpers/contrib/ssl/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "f4504ccd486dc0fd39d5cbf58540da2a16f5ff1d4119225caaac53fbc96da6d1"
+    ],
+    "lib/charmhelpers/contrib/ssl/service.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d0903f063373bcd1d1163cf4303d8365cbb76eac30d3ee26531cc3322bcfff4a"
+    ],
+    "lib/charmhelpers/contrib/storage/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/storage/linux/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/storage/linux/bcache.py": [
+      "layer:caas-base",
+      "dynamic",
+      "ce0b05f05105bcf0c8c8d806206ef8843ccf4e75d8cc971caba29d7f3c560b99"
+    ],
+    "lib/charmhelpers/contrib/storage/linux/ceph.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2ede004abc260ef701e0914f677f3cefedfe1a45f60b81f2a7c0f3cb39e4cc98"
+    ],
+    "lib/charmhelpers/contrib/storage/linux/loopback.py": [
+      "layer:caas-base",
+      "dynamic",
+      "196f3ab6b035d6cebbb0c3b46657bb3b111fa5e65c73213aa26f0f5165b8a188"
+    ],
+    "lib/charmhelpers/contrib/storage/linux/lvm.py": [
+      "layer:caas-base",
+      "dynamic",
+      "47c1c1bf829613a70a32897965625449052a262d0a0cf7668b9f7c90d191b75c"
+    ],
+    "lib/charmhelpers/contrib/storage/linux/utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5b1536346ddde2ff8258c5a2afc19afa6d6476e8d962a693b7b33c3b8bef35da"
+    ],
+    "lib/charmhelpers/contrib/templating/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/contrib/templating/contexts.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6e1325413345585f3776aedb5b93bd6b786cb6e0d5431024909788c4216b07e8"
+    ],
+    "lib/charmhelpers/contrib/templating/jinja.py": [
+      "layer:caas-base",
+      "dynamic",
+      "dad46821334c45cccab3af99d799c864f425b9a8b898efec7327912e44cc3908"
+    ],
+    "lib/charmhelpers/contrib/templating/pyformat.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5c488f6523db23f82f24a1bc391cea9c570d3ab27220b29b3eabd133261642ef"
+    ],
+    "lib/charmhelpers/contrib/unison/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8d924ecdafaf72ed4fbe7ac7644625fdc17734b8840eee7f1bb9527d62afe247"
+    ],
+    "lib/charmhelpers/coordinator.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8926434f7d3774a7088e40a711c17671502f0acebb5994e9e85b46b3ec46bf56"
+    ],
+    "lib/charmhelpers/core/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7200ce4e2e8d11db883e51a60588baf5f0bd7026a1b76da40ab7b46a6f8cdab9"
+    ],
+    "lib/charmhelpers/core/decorators.py": [
+      "layer:caas-base",
+      "dynamic",
+      "ec8a639c111bb78f7a36a96383c3aabed453eaa055ef81550fd647d38c0ba885"
+    ],
+    "lib/charmhelpers/core/files.py": [
+      "layer:caas-base",
+      "dynamic",
+      "aebc21fa7beae13ae5b87de858fc00fad06904d0d35f72bdb49c2c4900b75f13"
+    ],
+    "lib/charmhelpers/core/fstab.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0c5eca5f455e4c46da237176112a960d067b702b725f8c53dfecc7aad453ea39"
+    ],
+    "lib/charmhelpers/core/hookenv.py": [
+      "layer:caas-base",
+      "dynamic",
+      "614cb8415fc859c15477a5f8acbf06e1d83d17b79938b37a2587d81155b5692a"
+    ],
+    "lib/charmhelpers/core/host.py": [
+      "layer:caas-base",
+      "dynamic",
+      "87fe74790c94841a0b214f030ca8b0041625d5011fc74d4c73e2a6880603890f"
+    ],
+    "lib/charmhelpers/core/host_factory/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "lib/charmhelpers/core/host_factory/centos.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4e2c5170a23f0c2eb91a10ba374597c1355bbbb94bbb09339242c440c775a882"
+    ],
+    "lib/charmhelpers/core/host_factory/ubuntu.py": [
+      "layer:caas-base",
+      "dynamic",
+      "681cf0231ff5be9789f0668f59015e3e5ca30cb2e7e6ffd2dcefef6b3f2ca3a7"
+    ],
+    "lib/charmhelpers/core/hugepage.py": [
+      "layer:caas-base",
+      "dynamic",
+      "b9e936d52b565beab1181d21b8a22f85f442c29e8cc3e96c1eea1529dd9a9aed"
+    ],
+    "lib/charmhelpers/core/kernel.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8cbbad46f9902f226f15af0c0de2a68d8ee23873bc60eb1a1e981b1f7da7634f"
+    ],
+    "lib/charmhelpers/core/kernel_factory/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "lib/charmhelpers/core/kernel_factory/centos.py": [
+      "layer:caas-base",
+      "dynamic",
+      "b4e04f888abd326a7b11ed9a6d6ab3ed6a91a2245fd4f5f89b13910b37a193bd"
+    ],
+    "lib/charmhelpers/core/kernel_factory/ubuntu.py": [
+      "layer:caas-base",
+      "dynamic",
+      "a06289e52c5b81a823bd8e9c9d43ac18dd1616e16edd71e2a498d096d6592249"
+    ],
+    "lib/charmhelpers/core/services/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "65f4ffe4566c95ec2757d07b63dafe5bfc8ad07c2d113f2351e2b15def658595"
+    ],
+    "lib/charmhelpers/core/services/base.py": [
+      "layer:caas-base",
+      "dynamic",
+      "9a94a2fe9de4369bcf62ce73268913113cae13664daa47ee01ba3743b8e0d276"
+    ],
+    "lib/charmhelpers/core/services/helpers.py": [
+      "layer:caas-base",
+      "dynamic",
+      "995e0c72d6a02a454309036c1e9b097dcc413bb609830286174adc784eb70349"
+    ],
+    "lib/charmhelpers/core/strutils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "633a565edcdfa3f3f8a8dc5e3006d27a5e1ac548bb0eaff37be0dfcba57197b1"
+    ],
+    "lib/charmhelpers/core/sysctl.py": [
+      "layer:caas-base",
+      "dynamic",
+      "9f8f25f6c5944c267d4e7be911ca001e01d0a3ffdf10e71af68b47b947ce78db"
+    ],
+    "lib/charmhelpers/core/templating.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8979270b3ce589c906c138d99d0e60e5c1343b7e8765e581fca5e78d47522412"
+    ],
+    "lib/charmhelpers/core/unitdata.py": [
+      "layer:caas-base",
+      "dynamic",
+      "94f1bf03ec27c09f1980ff940f47d0742dbbe74a9b7cae3d86023ae362d5ac27"
+    ],
+    "lib/charmhelpers/fetch/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4956c137083316b579e30a3633e065617a90212fb5619e57c4c08bbfcb34e82c"
+    ],
+    "lib/charmhelpers/fetch/archiveurl.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c1c6a8af3310749e2e1c668c9bc343b308ed7924f3b6c7410b453bf78116a34d"
+    ],
+    "lib/charmhelpers/fetch/bzrurl.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c8fcf6dd4e2e0506a35d6b01a0dc325b3356f824f005d39c2381439d2401d232"
+    ],
+    "lib/charmhelpers/fetch/centos.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7f016cc4e0dbf6600c35f4a2c8d072cb58615a9c0eef95635d413d516ecf76ec"
+    ],
+    "lib/charmhelpers/fetch/giturl.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d5f355e38e890d552f8a89e642db99c8c73ae2fffd9628b3c1faf226ce60d1c1"
+    ],
+    "lib/charmhelpers/fetch/python/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5dab6b633dfc7cfcec96ac52755281e13f92f2eebda5d8a2ad5b4a03ab32403d"
+    ],
+    "lib/charmhelpers/fetch/python/debug.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3bb28475005573777b0254b8ab25419ddba213fe344a8a58ca16f47cd35e484c"
+    ],
+    "lib/charmhelpers/fetch/python/packages.py": [
+      "layer:caas-base",
+      "dynamic",
+      "f703f0deebfad732020ea2204f4902cf43672c5a5da8f405fde191037c107524"
+    ],
+    "lib/charmhelpers/fetch/python/rpdb.py": [
+      "layer:caas-base",
+      "dynamic",
+      "f1b564811d80e483cc415862c37599b0f2146a1dd28bfde189c739cad7cf8be0"
+    ],
+    "lib/charmhelpers/fetch/python/version.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3d4f813758dd572355ca0983304bcf73b2ecd56a78de44cac99bef0f4e4a2eec"
+    ],
+    "lib/charmhelpers/fetch/snap.py": [
+      "layer:caas-base",
+      "dynamic",
+      "da06d3f93f5a152cad0385122b0e8dd336044aefc6859661fd424c9037dbe62d"
+    ],
+    "lib/charmhelpers/fetch/ubuntu.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d75a72d5484eeda6ee17474fbf8200f559c26a70314b77a93a9e9f3ce4fa382c"
+    ],
+    "lib/charmhelpers/fetch/ubuntu_apt_pkg.py": [
+      "layer:caas-base",
+      "dynamic",
+      "1b16f7a826bd7c6f931a75694230e89f52e42bc420fabd06f1d027cd12c533ec"
+    ],
+    "lib/charmhelpers/osplatform.py": [
+      "layer:caas-base",
+      "dynamic",
+      "43257f5cea0eb917b727394d95f58d4519b7c4b6ce0d9cdb7008b159987eb353"
+    ],
+    "lib/charmhelpers/payload/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "06c2f163b18000529b778fa731e6588715d241c7f81e5682e1700fd3a70d5fa8"
+    ],
+    "lib/charmhelpers/payload/archive.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6f94cfcd0fa6585a33d97b70d06bc34dc827a274f7ff85d5463da472b11266d5"
+    ],
+    "lib/charmhelpers/payload/execd.py": [
+      "layer:caas-base",
+      "dynamic",
+      "eb85b21238719c18858af9ad4971989856aeb92c946244629a5afd0b2abac402"
+    ],
+    "lib/charms/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4032724b98ed267185b12b8ec78dd9bcb0423ab1c89a6f0dad99397fd51159d9"
+    ],
+    "lib/charms/layer/caas_base.py": [
+      "layer:caas-base",
+      "static",
+      "8d10aa610ecc4b4e85c6ca215067719aad7000b8f8f2fbc82ce4763a32b68057"
+    ],
+    "lib/charms/layer/docker_resource.py": [
+      "layer:docker-resource",
+      "static",
+      "a8d14a392341a026e8a32b4826fcf1f010ea94ff81bf910edc4ede7abac3847d"
+    ],
+    "lib/charms/layer/options.py": [
+      "layer:options",
+      "static",
+      "8ae7a07d22542fc964f2d2bee8219d1c78a68dace70a1b38d36d4aea47b1c3b2"
+    ],
+    "lib/charms/layer/status.py": [
+      "layer:status",
+      "static",
+      "d560a5e07b2e5f2b0f25f30e1f0278b06f3f90c01e4dbad5c83d71efc79018c6"
+    ],
+    "lib/charms/reactive/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c048ff93d26c2fbfd13b1453e41adc86c2f16e274ea87ac04055682597978a4a"
+    ],
+    "lib/charms/reactive/bus.py": [
+      "layer:caas-base",
+      "dynamic",
+      "998a5ee0955efb9351d7c62cb105cf3900435cc4276051b9477de4b7e563270b"
+    ],
+    "lib/charms/reactive/cli.py": [
+      "layer:caas-base",
+      "dynamic",
+      "a5fe7968d3a1978006fdd47e81acfd57d8c59c0c0fe45d52a829b1dda8349811"
+    ],
+    "lib/charms/reactive/decorators.py": [
+      "layer:caas-base",
+      "dynamic",
+      "bd317a5f4ee887415c2246f929a11eef38acb62a53a33f2a5836b472f12f3217"
+    ],
+    "lib/charms/reactive/endpoints.py": [
+      "layer:caas-base",
+      "dynamic",
+      "596148229495404e163c2cbf1c804156edfa898fc1d0bfc1835419ec4861f973"
+    ],
+    "lib/charms/reactive/flags.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6c1d6b8279d273ff30361a900c652ba16067daf4b8f3f51703b1991f8d53e785"
+    ],
+    "lib/charms/reactive/helpers.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4df2a260857ce36b57cda1ff62598e1e1cedc5b36bfbf2552e904784e0463a12"
+    ],
+    "lib/charms/reactive/patterns/request_response.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2e6a783a65691daa422a9990f0aca16c811b6653941dc31b2b8c5dfc9648417e"
+    ],
+    "lib/charms/reactive/relations.py": [
+      "layer:caas-base",
+      "dynamic",
+      "43481cc60deec86163526ffa86c942b1cdaef0a3f80668031ec049cf1faa718f"
+    ],
+    "lib/charms/reactive/trace.py": [
+      "layer:caas-base",
+      "dynamic",
+      "49b2550cea43bab0068f50dd74d4567a901cd39cfa279d2e656743b8727ecdf0"
+    ],
+    "lib/jinja2/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "f5f224725e74d5fbd31bff684c01ef799acd9961d49c2ddc6f571c0894355734"
+    ],
+    "lib/jinja2/_compat.py": [
+      "layer:caas-base",
+      "dynamic",
+      "992fb6313882a6490e77e24abf1410c4d405104bbe615c149f0547aeea65628a"
+    ],
+    "lib/jinja2/_identifier.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5b5401498fa226ccadea847f9ca4ae34d0b357de6f2c839881434f508d5de605"
+    ],
+    "lib/jinja2/asyncfilters.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7130cfbeb4bc1e9fc8930b19d66f5a7ff96be671f2b30eee4dae605743666551"
+    ],
+    "lib/jinja2/asyncsupport.py": [
+      "layer:caas-base",
+      "dynamic",
+      "504ad0dd89532da4a315bf783f83159f4f3e6950fd8c9c6dcb62557cc45bfb53"
+    ],
+    "lib/jinja2/bccache.py": [
+      "layer:caas-base",
+      "dynamic",
+      "145f108a3d8218aea829d1dbf55cf7f7a60787592cb00c6a5f65ec07ab8cbcb9"
+    ],
+    "lib/jinja2/compiler.py": [
+      "layer:caas-base",
+      "dynamic",
+      "06a0b953a27139b49185b9724ff6ba4e9e46b44539cf7512d5ae232d06b1c60a"
+    ],
+    "lib/jinja2/constants.py": [
+      "layer:caas-base",
+      "dynamic",
+      "bb0c15f195211e169c02ecf93d3c1c91fb1ba816aa33b68a7f224bee4197e584"
+    ],
+    "lib/jinja2/debug.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0405a639924678e298ea0dce089d6fd3f1ab50acf52c7a7867ede6fed2484fe5"
+    ],
+    "lib/jinja2/defaults.py": [
+      "layer:caas-base",
+      "dynamic",
+      "126fbde619ac27121e9c3099141d584af7fd08d85ef6b066cad377c94ac17160"
+    ],
+    "lib/jinja2/environment.py": [
+      "layer:caas-base",
+      "dynamic",
+      "56790092ac3c25b8d972de2d0321e5a41ae46b6bea07e679f1100ffb7d8fd596"
+    ],
+    "lib/jinja2/exceptions.py": [
+      "layer:caas-base",
+      "dynamic",
+      "fd18fe3558bdf10e808848d840eb0ff1d10876ee40966447cdc48d38f7568b1e"
+    ],
+    "lib/jinja2/ext.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6ad310c9d102f3ab4dd7352c750887c392f9705eb69c36ea1ae7b6e588aedcde"
+    ],
+    "lib/jinja2/filters.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c8e00993432c1fefe0102d22d14e8dc1e55085bb58682fae13cc6cc0714b178c"
+    ],
+    "lib/jinja2/idtracking.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d866c34b322f180ac40462e4a2f2e4a847e6631996b047fc737419c0ce2e36cc"
+    ],
+    "lib/jinja2/lexer.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c9210fa1777583bc118ecbb0db7ba2992ea79063796aaad8c1c38ac426953014"
+    ],
+    "lib/jinja2/loaders.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c624ee51128010e6f2ca6d2753c3c2217bbf429f1f9f4009e682000d4526fb94"
+    ],
+    "lib/jinja2/meta.py": [
+      "layer:caas-base",
+      "dynamic",
+      "7e6287c649996003a6f50c965b2f0431de9e79f008876df8ae404c5b65f8651f"
+    ],
+    "lib/jinja2/nativetypes.py": [
+      "layer:caas-base",
+      "dynamic",
+      "fec2614bc7fef10d103080b4766d5811d2f2c44ca83be91c87ca8e2f9c540df1"
+    ],
+    "lib/jinja2/nodes.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2f5d0bfe74037ee6cb84edd78e917dab3e3a1528767252feddee3da205653260"
+    ],
+    "lib/jinja2/optimizer.py": [
+      "layer:caas-base",
+      "dynamic",
+      "32c765140089d0545d3ed8e608076dec943d486ad715a0cd51ab25b1641a1b73"
+    ],
+    "lib/jinja2/parser.py": [
+      "layer:caas-base",
+      "dynamic",
+      "94fcd311b7294d104bc3c8a2e8e6321311de0216992cc034e47a6fe2597750b9"
+    ],
+    "lib/jinja2/runtime.py": [
+      "layer:caas-base",
+      "dynamic",
+      "9e63b7f16d3ca757754b831dbed0a0cf32c8a95b382789f0c223198d999541a6"
+    ],
+    "lib/jinja2/sandbox.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8ba9da706ded08dfb8530129cc3a65e9371074247ecd132ca046a1890d352e26"
+    ],
+    "lib/jinja2/tests.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d7cc95119c210fbf4eb32e7094afe6d064ed63ff4e3ed89292551182f96d1a8f"
+    ],
+    "lib/jinja2/utils.py": [
+      "layer:caas-base",
+      "dynamic",
+      "c5852caba879ff10cb553e1be5dbdd8d0e87ed2f567d4825ad5209eaac8f4d1c"
+    ],
+    "lib/jinja2/visitor.py": [
+      "layer:caas-base",
+      "dynamic",
+      "243d47d5c00d036f49727b457cde5f3f2a90c41e1b238c02d3407365af971e4b"
+    ],
+    "lib/markupsafe/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "a136e53b97fd28533ea6f9eaf5b0741e01259ea909caa1e714dd4dc76348be76"
+    ],
+    "lib/markupsafe/_compat.py": [
+      "layer:caas-base",
+      "dynamic",
+      "b845b5c9bc448dfc488ae4db451689a47b0f15fe3241430c29a3e06040b95db5"
+    ],
+    "lib/markupsafe/_constants.py": [
+      "layer:caas-base",
+      "dynamic",
+      "ce8d9a8df49c1be97549bff9d843f73250c2a8eed8d415475175ca46c54344d9"
+    ],
+    "lib/markupsafe/_native.py": [
+      "layer:caas-base",
+      "dynamic",
+      "77ef12ff3cd8b76cb9d76c5872e4b1ab435e1b60d452f1bcd3055d4e7fb8288f"
+    ],
+    "lib/markupsafe/_speedups.c": [
+      "layer:caas-base",
+      "dynamic",
+      "9347f31082b708fe8c98ca9e634a1be374cff749953740d3ca7ec1025dd1a928"
+    ],
+    "lib/markupsafe/_speedups.cpython-36m-x86_64-linux-gnu.so": [
+      "layer:caas-base",
+      "dynamic",
+      "600c6a8ddb52d97250d38df07f13009c4d6eecaa6c05ce3d52b5bdc863e22b4c"
+    ],
+    "lib/netaddr/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0ba7038af67aeb5f36a3633fc06e697b4d93550f8eb462c8ac9527e5ad0a7085"
+    ],
+    "lib/netaddr/compat.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d88d214f26cd3d4f0621a203742407549f883a5008511a42d781a88f252acdf0"
+    ],
+    "lib/netaddr/contrib/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "b470c058ae53d25dc8c4c8e59e55d16660551167bf26762ee8699d49e3fcb254"
+    ],
+    "lib/netaddr/contrib/subnet_splitter.py": [
+      "layer:caas-base",
+      "dynamic",
+      "165a00c73bdc30c5d71da7ac1898b2256ba0d51f16af187ed340afbfa51f0c06"
+    ],
+    "lib/netaddr/core.py": [
+      "layer:caas-base",
+      "dynamic",
+      "021421c2eb6a975d7049458de7f8a9e9c33d8078cfff3af773b237048ac2c08c"
+    ],
+    "lib/netaddr/eui/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d2041e80c022579b2dd00ac505fac4ebb03b2ac92edc1c5b2c0135f5b5458698"
+    ],
+    "lib/netaddr/eui/iab.idx": [
+      "layer:caas-base",
+      "dynamic",
+      "4f5358ae8ee04e1cfa96c3bf1913b56f72a4e1e81d105a318679f787c5bc3d9f"
+    ],
+    "lib/netaddr/eui/iab.txt": [
+      "layer:caas-base",
+      "dynamic",
+      "009f022dcab1846c76d3a3476b53ded2b3987576dcc8026b1b33bc0f7a9783b9"
+    ],
+    "lib/netaddr/eui/ieee.py": [
+      "layer:caas-base",
+      "dynamic",
+      "60531e37e62b5c82d20270831f7c2546a0f8c7c2e68842c31777ac565de287f2"
+    ],
+    "lib/netaddr/eui/oui.idx": [
+      "layer:caas-base",
+      "dynamic",
+      "9d2c15fd571ef9b73d7ade09da172ff250937b6e9aa0ca551996e8ad0673bd14"
+    ],
+    "lib/netaddr/eui/oui.txt": [
+      "layer:caas-base",
+      "dynamic",
+      "4d7414c686808a7efa62e0bf675be6a8b0b6ae479c18e2422bb3e0f7f0cd960c"
+    ],
+    "lib/netaddr/fbsocket.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0d374f97acad0b86e11ccefe910d3c0991bcc2b6c45caeb17c50d0f9c54f3ef3"
+    ],
+    "lib/netaddr/ip/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "1efa37aac3009f9e28b6208e0aa9ac00b147a4db4cf885e0e8bfe0b089373454"
+    ],
+    "lib/netaddr/ip/glob.py": [
+      "layer:caas-base",
+      "dynamic",
+      "5cffe84b16e1bacf1049fc2467f2e8445ba6fb1b33aaa40301090f5a31b50fcf"
+    ],
+    "lib/netaddr/ip/iana.py": [
+      "layer:caas-base",
+      "dynamic",
+      "deaa8a36e91f6703ae394c0325158e0668a285e8168f45c22d870a2aeb555a2c"
+    ],
+    "lib/netaddr/ip/ipv4-address-space.xml": [
+      "layer:caas-base",
+      "dynamic",
+      "8e7a4eff3ce2f80658c0125840356e2da44245f01cdab9d9a5c37b15a7b823a4"
+    ],
+    "lib/netaddr/ip/ipv6-address-space.xml": [
+      "layer:caas-base",
+      "dynamic",
+      "5dcd085d1b7e49b5a9095e44981d013347d8de0b7d1b566a87708093032352cd"
+    ],
+    "lib/netaddr/ip/ipv6-unicast-address-assignments.xml": [
+      "layer:caas-base",
+      "dynamic",
+      "c88414c1b9971b7448ec26ac0bfe738d9ee313fb9a87118d97293dd423e33fdc"
+    ],
+    "lib/netaddr/ip/multicast-addresses.xml": [
+      "layer:caas-base",
+      "dynamic",
+      "a1408f886c4fa60812cb6d76ffe9d55d5a9c2e1a440f4c46aff48ed89916be91"
+    ],
+    "lib/netaddr/ip/nmap.py": [
+      "layer:caas-base",
+      "dynamic",
+      "985c67cefe35c95ee34810dc25a99d780777b2b84b79e2e4571769fd14652ecf"
+    ],
+    "lib/netaddr/ip/rfc1924.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4b80234e194b3d8e9a511583a61fd0384bc916bf53b8f46dcda0171b0a7e0252"
+    ],
+    "lib/netaddr/ip/sets.py": [
+      "layer:caas-base",
+      "dynamic",
+      "fd4c788f9ce4485280a34e931d4eeecba2681c47a56380af32f596e464e3e071"
+    ],
+    "lib/netaddr/strategy/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "90665ddff8bc90d28fca550172f67af57006a3d4eb9b3ef7ac1f3ce8d9d72c8f"
+    ],
+    "lib/netaddr/strategy/eui48.py": [
+      "layer:caas-base",
+      "dynamic",
+      "4bcf0695e6ab6f503d239230e0a4e50ef59916794ab129baa4897254d8784009"
+    ],
+    "lib/netaddr/strategy/eui64.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e9abc7289569b61b348b84db882252cd50962052f93606a7f7674b68a0b39961"
+    ],
+    "lib/netaddr/strategy/ipv4.py": [
+      "layer:caas-base",
+      "dynamic",
+      "ba412280f548d6805329830ef4fba6b86e2b6159f32eb72ad7d5128f493a865d"
+    ],
+    "lib/netaddr/strategy/ipv6.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6c01f6bfaa105d099fc13eecc074a40ef6b3a87d9663ba7e3bad2d97030eaf14"
+    ],
+    "lib/pyaml/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "99f3744a29678193aad99dd18276c85be10eebd88d0cc1b70e18b38366babe10"
+    ],
+    "lib/pyaml/__main__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "79f9e954b833293b01555e1b639a5abc0254e87f3df2c8a38c317f85138c0056"
+    ],
+    "lib/pyaml/tests/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "lib/pyaml/tests/dump.py": [
+      "layer:caas-base",
+      "dynamic",
+      "1c0885ed40120bf86af4fe932a678cd932723990f110b30f3715c44f0c7c62de"
+    ],
+    "lib/six.py": [
+      "layer:caas-base",
+      "dynamic",
+      "6ec1334854d94f1e3dc10b6d2ce4664994eba6319cf146d7b7e1c16bf2d95fb4"
+    ],
+    "lib/tempita/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "30ea6e75cb7a5d6c0429d16c4beb7e4010a4ae12736917fc51840ed97e7c1cbb"
+    ],
+    "lib/tempita/__main__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "a1d2d7db758f10dd6577e056b00507853fa7a47a5e7632fd77f0749628f23709"
+    ],
+    "lib/tempita/_looper.py": [
+      "layer:caas-base",
+      "dynamic",
+      "f822e1eb8899e9cd5ccc7c5c86f89b4f23b2326eff992f35a2578ee8507070c8"
+    ],
+    "lib/tempita/compat3.py": [
+      "layer:caas-base",
+      "dynamic",
+      "cb81cfac35589a28fce3f6c78b73e4d40d364afbd39a6f7c7a87695a0c731f6d"
+    ],
+    "lib/yaml/__init__.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2667da5e4f2de1ab2595a3aa638b57ebfaa2a4462c5d6ad1a4bdf22bf6affd88"
+    ],
+    "lib/yaml/composer.py": [
+      "layer:caas-base",
+      "dynamic",
+      "fcaa37d16afa783594794a5ab94193dcb720f503c19ce3d59539c8311189f453"
+    ],
+    "lib/yaml/constructor.py": [
+      "layer:caas-base",
+      "dynamic",
+      "94192bdaa532956eaacfc54e5e3573c2baa3b1a8b0ba609a1f8241bb6075dc4f"
+    ],
+    "lib/yaml/cyaml.py": [
+      "layer:caas-base",
+      "dynamic",
+      "2e2324bdc84da277e8cb517a79cf4bd81894cf7af46f01788729a9012257d487"
+    ],
+    "lib/yaml/dumper.py": [
+      "layer:caas-base",
+      "dynamic",
+      "3cb72d66563064ba7b5e679477046ebf89d8399d940670c8532f3e94a7cb17ea"
+    ],
+    "lib/yaml/emitter.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8e086d694ede170837d5b1b407b45979aff6f40762f422a65eafd08e04290a44"
+    ],
+    "lib/yaml/error.py": [
+      "layer:caas-base",
+      "dynamic",
+      "021f73fada072546c4f63f8cf18a7181244ce4280b09cc15cc980b2d1176171a"
+    ],
+    "lib/yaml/events.py": [
+      "layer:caas-base",
+      "dynamic",
+      "e74fd392c810884e2ea7e94aa3f57e9c1cbeb402319083d0c58e6a0e1282787c"
+    ],
+    "lib/yaml/loader.py": [
+      "layer:caas-base",
+      "dynamic",
+      "18068d999a103b41d2a8bc6a03e536f81c0e824181fde9f21af5b83ae10bfe8b"
+    ],
+    "lib/yaml/nodes.py": [
+      "layer:caas-base",
+      "dynamic",
+      "80f28d8fca4a09d87677882bde021820d9cf39a3b11a12405226211919cf13ce"
+    ],
+    "lib/yaml/parser.py": [
+      "layer:caas-base",
+      "dynamic",
+      "8a55a9e6fbe0a07146cef3990c8b45a068c3e83e369e1959ad9ca30306b4a09a"
+    ],
+    "lib/yaml/reader.py": [
+      "layer:caas-base",
+      "dynamic",
+      "d1d9b38ab3a20c6e17a38d519ee412ecaf6b918df18c78956ac7c330d4ea08dc"
+    ],
+    "lib/yaml/representer.py": [
+      "layer:caas-base",
+      "dynamic",
+      "cf0c11a208327f2832cf412aa4dc63e485bbf33cc8112799982c13d5a2dea600"
+    ],
+    "lib/yaml/resolver.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0c90a3a50afc6100846188ca118a939741abb198a5d87e1a14e23d6f439ef94e"
+    ],
+    "lib/yaml/scanner.py": [
+      "layer:caas-base",
+      "dynamic",
+      "18bd1fd7730a68f4923bf123ccc716dd6ab6fed0926106cfc7506f1ce6df8e73"
+    ],
+    "lib/yaml/serializer.py": [
+      "layer:caas-base",
+      "dynamic",
+      "0a1b85826854d35863e31808f0668abfabdf33606e8f06bd8bb7761401e3edc0"
+    ],
+    "lib/yaml/tokens.py": [
+      "layer:caas-base",
+      "dynamic",
+      "953408cd2570f0c83dc2fe39f7e4e388e41eeb05738aa69196a5f6ffcf6ba79e"
+    ],
+    "make_docs": [
+      "layer:status",
+      "static",
+      "c990f55c8e879793a62ed8464ee3d7e0d7d2225fdecaf17af24b0df0e2daa8c1"
+    ],
+    "metadata.yaml": [
+      "k8scharm",
+      "dynamic",
+      "d70a21a3158514aa9b8d985a2675d1f3935913f518eb3a4023d63be938a6a7d1"
+    ],
+    "pydocmd.yml": [
+      "layer:status",
+      "static",
+      "11d9293901f32f75f4256ae4ac2073b92ce1d7ef7b6c892ba9fbb98690a0b330"
+    ],
+    "reactive/docker_resource.py": [
+      "layer:docker-resource",
+      "static",
+      "afc4074c204941ce2b76632df852439195a23041c8bb4dfc9a9ff3c0d90e0946"
+    ],
+    "reactive/k8scharm.py": [
+      "k8scharm",
+      "static",
+      "330b51dbefa79d11182c72bcf1eb3e067d18996b23140fefdfaa19a64aa6d4fe"
+    ],
+    "reactive/spec_template.yaml": [
+      "k8scharm",
+      "static",
+      "a1af909617c025ecad19c799063df03d6d4bbb0ff5c1e106a64154ec431b7743"
+    ],
+    "reactive/status.py": [
+      "layer:status",
+      "static",
+      "30207fc206f24e91def5252f1c7f7c8e23c0aed0e93076babf5e03c05296d207"
+    ],
+    "tactics/__init__.py": [
+      "layer:caas-base",
+      "static",
+      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    ],
+    "tactics/wheelhouse.py": [
+      "layer:caas-base",
+      "static",
+      "d65d8c08e273ae7787489da9c4af45d4e1191827f5c9e8bdb8e9afe4937a0705"
+    ],
+    "tox.ini": [
+      "layer:status",
+      "static",
+      "2669a78e8e51c1606874e1cc97ca99e660ff547a79592572a38a268d99b25b67"
+    ]
+  }
+}

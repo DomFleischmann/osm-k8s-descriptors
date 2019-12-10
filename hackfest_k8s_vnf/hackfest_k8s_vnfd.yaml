@@ -1,0 +1,28 @@
+vnfd:vnfd-catalog:
+    vnfd:
+    -   id: hackfest_k8s-vnf
+        name: hackfest_k8s-vnf
+        short-name: hackfest_k8s-vnf
+        version: '1.0'
+        description: A VNF consisting of 2 VDU connected to two external VL, and one for data and another one for management
+        logo: osm.png
+        connection-point:
+        -   id: vnf-mgmt
+            name: vnf-mgmt
+            short-name: vnf-mgmt
+            type: VPORT
+        -   id: vnf-data
+            name: vnf-data
+            short-name: vnf-data
+            type: VPORT
+        mgmt-interface:
+            cp: vnf-mgmt
+        kdu:
+        - name: k8scharm
+          juju-bundle: ./k8s_models/k8scharm-bundle.yaml
+#          juju-bundle: cs:~aisrael/bundle/mediawiki-k8s-0
+        k8s-cluster:
+          nets:
+          - id: vnf-mgmt
+            external-connection-point-ref: vnf-mgmt
+

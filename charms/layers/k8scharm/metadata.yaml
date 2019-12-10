@@ -1,0 +1,14 @@
+name: k8scharm
+summary: Basic Kubernetes charm for testing and teaching
+maintainers:
+- Dominik Fleischmann <dominik.fleischmann@canonical.com>
+description:
+  Basic Kubernetes charm for testing and teaching
+series:
+- kubernetes
+resources:
+  ubuntu-image:
+    type: oci-image
+    description: "Basic ubuntu image"
+    auto-fetch: true
+    upstream-source: ubuntu:latest

@@ -1,0 +1,2 @@
+3e11bac4983bdd5cced62cc89f924ec9  hackfest_simplecharm_nsd.yaml
+bc681c5a4c3cdc09c013df2d2239f3d2  icons/osm.png

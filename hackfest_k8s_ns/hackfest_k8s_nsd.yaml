@@ -1,0 +1,30 @@
+nsd:nsd-catalog:
+    nsd:
+    -   id: hackfest_k8s-ns
+        name: hackfest_k8s-ns
+        short-name: hackfest_k8s-ns
+        description: NS with 2 VNFs with cloudinit connected by datanet and mgmtnet VLs
+        version: '1.0'
+        logo: osm.png
+        constituent-vnfd:
+        -   vnfd-id-ref: hackfest_k8s-vnf
+            member-vnf-index: '1'
+        vld:
+        -   id: mgmtnet
+            name: mgmtnet
+            short-name: mgmtnet
+            type: ELAN
+            mgmt-network: 'true'
+            vim-network-name: PUBLIC
+            vnfd-connection-point-ref:
+            -   vnfd-id-ref: hackfest_k8s-vnf
+                member-vnf-index-ref: '1'
+                vnfd-connection-point-ref: vnf-mgmt
+        -   id: datanet
+            name: datanet
+            short-name: datanet
+            type: ELAN
+            vnfd-connection-point-ref:
+            -   vnfd-id-ref: hackfest_k8s-vnf
+                member-vnf-index-ref: '1'
+                vnfd-connection-point-ref: vnf-data

@@ -1,0 +1,34 @@
+"name": "layer-caas-base"
+"maintainer": "Juju Core <juju@lists.ubuntu.com>"
+"description": "Base layer for CAAS charms."
+"includes":
+- "layer:options"
+- "layer:status"
+- "layer:caas-base"
+- "layer:docker-resource"
+"tactics":
+- "tactics.wheelhouse.WheelhouseTactic"
+"options":
+  "layer-caas-base": {}
+  "status":
+    "patch-hookenv": !!bool "true"
+  "docker-resource":
+    "set-status": !!bool "true"
+  "k8scharm": {}
+"repo": "https://github.com/juju-solutions/layer-docker-resource"
+"proof":
+  "resources":
+  - "name": "upstream-source"
+    "type": "String"
+    "missing": ""
+    "description": "Hint for the built charm, or charm build systems, on where this\
+      \ resource originates."
+  - "name": "auto-fetch"
+    "type": "Boolean"
+    "missing": !!bool "false"
+    "description": "Whether or not to automatically fetch this resource."
+  - "name": "validator"
+    "type": "String"
+    "missing": ""
+    "description": "Held for future use; not currently used."
+"is": "k8scharm"
